@@ -15,6 +15,8 @@ ph = "1234";
 console.log(ph);
 
 console.log(typeof name);
+console.log(typeof undefined); // it is undefined...a special type
+console.log(typeof null); // it is an object
 
 //why not var
 // printMatrix2(matrix2);
