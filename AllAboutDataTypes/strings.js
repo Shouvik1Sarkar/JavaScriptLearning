@@ -6,6 +6,8 @@ console.log(name + repo + " value"); //very bad practice
 console.log(`hello my name is ${name} and my repo count is ${repo}`); //good practice
 
 let name1 = new String("Shouvik");
+console.log(name1);
+
 console.log(name1.__proto__);
 console.log(name1.length);
 console.log(name1.charAt(1));
