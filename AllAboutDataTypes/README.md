@@ -7,3 +7,11 @@
 # String video
 
 ## Q4. String in js all the methods and etc
+
+# Numbers and maths
+
+## Q5. Math.random()
+
+# Dates
+
+## Date in Java Script
