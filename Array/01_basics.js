@@ -34,3 +34,4 @@ console.log("B:", myArray);
 let myA2 = myArray.splice(1, 3);
 console.log(myA2);
 console.log("C:", myArray);
+
