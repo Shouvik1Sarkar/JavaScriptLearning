@@ -54,3 +54,10 @@ console.log(total_team.indexOf("Shubman Gill") + 1);
 console.log(total_team[4]);
 console.log(total_team.includes("KL Rahul"));
 console.log(total_team.length);
+console.log("What am I even typing I don't know ");
+
+total_team.map((a) => {
+  console.log(a);
+});
+// so map converts it into this....
+//I am posing in front of came to record a video and look cool
