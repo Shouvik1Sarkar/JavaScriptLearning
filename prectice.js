@@ -112,3 +112,26 @@ for (const [key, value] of newmap) {
 // }
 const obj = { 100: "a", 2: "b", 1: "c", x: "d" };
 console.log(Object.keys(obj)); // ["1", "2", "100", "x"]
+
+let myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let newNum = myNum.map((num) => {
+  return num * 2;
+});
+
+console.log(newNum);
+
+let new_devs = [
+  { name: "Dev_1", age: 22 },
+  { name: "Dev_2", age: 20 },
+  { name: "Dev_3", age: 25 },
+  { name: "Dev_4", age: 29 },
+  { name: "Dev_5", age: 23 },
+  { name: "Dev_6", age: 20 },
+];
+
+let x = new_devs.map((item) => {
+  if (item.age > 21) {
+    return item;
+  }
+});
+console.log(x);
